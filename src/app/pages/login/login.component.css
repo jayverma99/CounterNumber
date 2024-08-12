@@ -1,0 +1,28 @@
+.cardCenter{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.cardDesign{
+    border: 1px solid #707070;
+    box-shadow: 0px 1px 8px 0px #707070;
+    border-radius: 10px;
+}
+
+.formDesign{
+    padding: 15px;
+}
+.textdecor{
+    color:#ff0000b3 ;
+}
+
+.btn{
+    border: 1px solid #707070;
+    background-color: #ff0000b3;
+    color: white;
+}
+
+.eye{
+    margin-left: -27px;
+}

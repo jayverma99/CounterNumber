@@ -1,0 +1,34 @@
+<!-- <section>
+    <div class="container-fluid cardCenter d-flex justify-content-center align-item">
+        <div class="cardDesign">
+            <form [formGroup]="loginForm" class="formDesign" (ngSubmit)="onSubmit(loginForm)">
+                <h4 class="textdecor">Log In</h4>
+                <div class="py-2">
+                    <label class="mb-0">
+                        User ID
+                    </label>
+                    <div>
+                        <input formControlName="userId" placeholder="Your name">
+                    </div>
+                </div>
+                <div class="py-2">
+                    <label class="mb-0">
+                        Password
+                    </label>
+                    <div>
+                        <input [type]="type" formControlName="password" placeholder="Your Password">
+                        <img (click)="onClock(true)" class="eye" src="../../../assets/302876-200.png" height="20" width="20" alt="">
+                    </div>
+                </div>
+                <div class="text-center p-y2">
+                    <button class="btn " type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section> -->
+
+
+<app-child-component (numberChange)="onNumberChange($event)"></app-child-component>
+
+<h3>{{receivedNumber}}</h3>
